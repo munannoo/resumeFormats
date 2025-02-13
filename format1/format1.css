@@ -1,0 +1,75 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  margin: 1rem auto;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.resume {
+  display: grid;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 100px;
+}
+
+header {
+  display: flex;
+  gap: 3rem;
+}
+
+header > .focus {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header > .focus > .image {
+  margin-right: 10px;
+}
+
+header > .focus > .details > h2 {
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+header > .focus > .details > p {
+  margin-top: 0;
+}
+
+header > .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+header > .contacts > span {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: right;
+  align-items: center;
+}
+
+header > .contacts > span > i {
+  width: 30px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  gap: 1rem;
+}
+
+section > h3 {
+  margin: 0;
+}
