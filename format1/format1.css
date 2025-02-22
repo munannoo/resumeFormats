@@ -9,7 +9,6 @@ hr {
 }
 
 .resume {
-  display: grid;
   margin: 2rem;
   padding: 1rem;
   background-color: whitesmoke;
@@ -63,13 +62,69 @@ header > .contacts > span > i {
   width: 30px;
   font-size: 1.3rem;
   text-align: center;
-}
-
-section {
-  display: grid;
-  gap: 1rem;
+  height: 2rem;
 }
 
 section > h3 {
   margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+.bt {
+  width: 100%;
+  margin: 1rem 0;
+  border-bottom: 1.5px solid black;
+}
+
+.lt {
+  margin: 0 1rem;
+  border-left: 1.5px solid black;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.sidebar > p {
+  text-align: justify;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+main > .right {
+  width: 70%;
+}
+
+h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+li > p {
+  width: 80%;
+  text-align: justify;
+}
+
+.references > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.references > ul > li {
+  width: 100%;
+}
+
+span > p {
+  margin: 0.5rem 0;
 }
